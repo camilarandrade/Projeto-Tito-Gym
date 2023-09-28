@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="shortcut icon" href="../image/assets/MicrosoftTeams-image.png" type="image/x-icon">
+</head>
+
+<body id="fundo">
+
+    <div class="navegacao">
+        <div class="logo">
+            <img src="../image/assets/Logo academia moderno amarelo (3) 1.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="treino.html">Treino</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="Unidades.html">Unidades</a></li>
+            </ul>
+        </nav>
+        <i id="burger" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+        <div class="menu" id="itens">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="treino.html">Treino</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="Unidades.html">Unidades</a></li>
+            </ul>
+        </div>
+        <div class="redes">
+            <ul>
+                <li><a href="https://pt-pt.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <h1><span>CRIE SEU</span>CADASTRO</h1>
+    <br>
+    <br><br>
+
+    <div class="box3">
+
+
+        <form class="conato" action="#" name="cadastro" method="post">
+
+
+            <p>AGORA, VAMOS CRIAR SEU CADASTRO NA <b>TITO GYM:</b></p>
+
+            <div class="box2">
+                <div class="name">
+
+                    <br>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo..." maxlength="20" autofocus
+                        required>
+                </div><br>
+
+
+                <div class="email">
+                    <!-- <label for="e-mail"><b>E-mail</b></label> -->
+                    <br>
+                    <input type="e-mail" id="e-mail" name="e-mail" placeholder="E-mail..." required>
+                </div><br>
+
+                <div class="cpf">
+                    <!-- <label for="cpf"><b>CPF</b></label> -->
+                    <br>
+                    <input type="cpf" id="cpf" name="cpf" placeholder="CPF" required>
+                </div><br>
+
+                <div class="data de nascimento">
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <br>
+                    <input type="date" id="dataNascimento" name="dataNascimento">
+                </div><br>
+
+                <div class="telofone">
+                    <!-- <label for="telefone"><b>DDD + Celular (xx) xxxxx-xxxx</b></label> -->
+                    <br>
+                    <input type="tel" id="telefone" name="telefone" placeholder="DDD + Celular (xx) xxxxx-xxxx"
+                        required>
+                </div><br><br>
+
+                <p>ESCOLHA O SEU <b>PLANO:</b></p>
+
+                <div class="box4">
+
+                    <div class="button-1">
+                        <button class="button button1"><i class="fa-solid fa-heart-pulse"></i>
+                            <b>Plano Básico</b>
+                        </button>
+                        <button class="button button2"><i class="fa-solid fa-crown"></i>
+                            <b>Plano Premium</b>
+                        </button>
+                        <button class="button button3"><i class="fa-solid fa-dumbbell"></i>
+                            <b>Plano Intermediario</b>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="box6">
+                    <p>FORMA DE<b> PAGAMENTO:</b></p>
+                    <div class="check">
+                        <input type="radio" name="preferencias[]" id="pref1" value="Cartão de Crédito">
+                        <label for="pref1">Cartão de Crédito</label>
+                    </div>
+                    <div class="check">
+                        <input type="radio" name="preferencias[]" id="pref2" value="cartão de Débito">
+                        <label for="pref2">Cartão de Débito</label>
+                    </div>
+                </div> <br><br>
+
+                <div>
+
+                    <div class="Número do Cartão">
+                        <br>
+                        <input type="cardNumber" id="Número do Cartão" name="Número do Cartão"
+                            placeholder="Número do Cartão" required>
+                    </div><br>
+
+                    <div class="CVV">
+                        <br>
+                        <input type="CardMonth" id="cvv" name="cvv" placeholder="CVV" required>
+                    </div><br>
+
+                    <div class="data de vencimento">
+                        <label for="datavencimento">Data de vencimento</label>
+                        <br>
+                        <input type="date" id="datavencimento" name="datavencimento">
+                    </div><br>
+
+                    <div class="Cadastro">
+                        <br>
+                        <input type="text" id="bandeira" name="bandeira" placeholder="Bandeira" maxlength="20" autofocus
+                            required>
+                    </div><br>
+
+                </div>
+
+
+                <div class="continuar">
+                    <input type="submit" value="Continuar">
+                </div><br><br>
+
+            </div>
+        </form>
+
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="img_footer">
+                <div class="logo1">
+                    <img src="../image/Imagens/Logo academia moderno amarelo (3) 1.png" alt="">
+                </div>
+                <div class="logos_footer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="nav_footer">
+                <ul>
+                    <h3>Website</h3>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+
+                    <li><a href="treino.html">Treino</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+
+
+                </ul>
+            </div>
+            <div class="nav_footer1">
+                <ul>
+                    <h3>Suporte</h3>
+                    <li><a href="ajuda.html">Ajuda</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="nav_footer2">
+                <ul>
+                    <h3>Mais.</h3>
+                    <li><a href="treino.html">Treino</a></li>
+                    <li><a href="Unidades.html">Unidades</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/82163b0541.js" crossorigin="anonymous"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
